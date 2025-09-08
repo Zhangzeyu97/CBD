@@ -1,0 +1,49 @@
+name: cbd
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  # Python
+  - python=3.10
+  
+  # PyTorch and CUDA
+  - pytorch=2.0.0
+  - torchvision=0.15.0
+  - pytorch-cuda=11.8
+  - cudatoolkit=11.8
+  
+  # Essential scientific packages
+  - numpy=1.24.4
+  - scipy=1.9.1
+  - scikit-image=0.20.0
+  - matplotlib=3.7.1
+  
+  # Image processing
+  - pillow
+  - opencv
+  
+  # Development tools
+  - ipython
+  - jupyter
+  
+  # Pip packages
+  - pip
+  - pip:
+    # Visualization
+    - visdom==0.2.4
+    
+    # Additional image processing
+    - opencv-python==4.3.0.36
+    - opencv-contrib-python==4.3.0.36
+    
+    # Optional but recommended
+    - tensorboard
+    - tqdm
+    - pyyaml
+    - h5py
+    
+    # For evaluation metrics
+    - lpips
+    - pytorch-fid

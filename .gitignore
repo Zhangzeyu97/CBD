@@ -1,0 +1,225 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.pth.tar
+*.onnx
+*.engine
+*.plan
+
+# Datasets (already in project)
+datasets/
+/datasets/
+*/datasets/*
+
+# Checkpoints (already in project)
+checkpoints/
+/checkpoints/
+*/checkpoints/*
+*.checkpoint
+
+# Results and outputs
+results/
+results-*/
+/results-task2a/
+*/results/*
+outputs/
+output/
+experiments/
+runs/
+test_results/
+
+# Logs
+*.log
+logs/
+log/
+*.err
+*.out
+events.out.tfevents.*
+tensorboard/
+wandb/
+
+# Visualization
+visdom/
+*.html
+web/
+images/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
+!docs/*.png
+!docs/*.jpg
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+.virtual_env/
+
+# Documentation build
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+BID.7z
+
+# Temporary files
+tmp/
+temp/
+.temp/
+*.tmp
+*.bak
+*.backup
+*.old
+~$*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# MATLAB
+*.m~
+*.asv
+*.mat
+*.fig
+slprj/
+octave-workspace
+
+# CUDA
+*.i
+*.ii
+*.gpu
+*.ptx
+*.cubin
+*.fatbin
+
+# Model files (optional - comment out if you want to track small models)
+*.h5
+*.hdf5
+*.pb
+*.tflite
+*.mlmodel
+
+# Configuration files (keep these if they contain sensitive info)
+# config.yaml
+# config.json
+# *.cfg
+
+# Metrics output
+metrics/results/
+metrics/*.txt
+metrics/*.csv
+
+# Cache
+.cache/
+__MACOSX/
+
+# profiling
+*.prof
+*.lprof
+*.nvprof
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Package files
+*.dmg
+*.iso
+*.jar
+*.war
+*.ear
+
+# Large files
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.mkv
+
+# Specific project files to ignore
+psnr_results.txt
+results.txt
+/results.txt
+
+# Keep important files
+!.gitkeep
+!requirements.txt
+!setup.py
+!README.md
+!README.MD
+!CLAUDE.md
+!CLAUDE.MD
+!LICENSE
