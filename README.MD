@@ -3,6 +3,10 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2403.10520-b31b1b.svg)](https://arxiv.org/html/2403.10520v1)
 
+![Abstract](abstract.png)
+
+![Pipeline](pipeline.png)
+
 ---
 
 ## 📋 Table of Contents
